@@ -16,6 +16,8 @@
 
 	.responsive{
 		background: #555;
+		height: 10px;
+		width: 10px;
 	}
 
 </style>
@@ -33,6 +35,9 @@
 <script type="text/javascript" src='responsive.js?<?=uniqid()?>'></script>
 <script type="text/javascript">
 	$(function(){
-		$('.responsive').responsive({padding:[4,10,2,10]});
+		$('.responsive').responsive({	padding:[0,0,0,5],
+										direction:"all",
+										size: [20,100]
+									});
 	})
 </script>
