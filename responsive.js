@@ -14,7 +14,7 @@
 		this.expands = function(){
 			var parent = Element.parent();
 
-			parent.css('position','relative');
+			//parent.css('position','relative');
 
 			var T = config.padding[0];
 			var R = config.padding[1];
@@ -22,7 +22,7 @@
 			var L = config.padding[3];
 
 			Element.css({
-				position 		: 'absolute',
+				position 		: 'relative',
 				top				: T,
 				left			: L,
 				'box-sizing' 	: 'border-box'
