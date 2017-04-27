@@ -17,11 +17,11 @@
 		overflow: hidden;
 	}
 
-
 	#main{
 		max-width: 100%;
 		margin: auto;
 		background: #fff;
+		position: relative;
 	}
 
 	.header, .footer, .body{
